@@ -1,0 +1,29 @@
+//设置数组成员为参数的方法。
+class Bubble
+{
+  public static void method()
+  {
+    for(int x=0;x<=arr.length-1;x++)
+    {
+      for(int y=0;y<=arr.length-1-x;y++)
+      {
+        if(arr[x]<arr[x+1])
+        show(arr,x,x+1);
+      }
+    }
+  }
+  void show(int[] arr,int x,int y)//参数设置方法。
+  {
+  int temp=arr[x];
+  arr[x]=arr[y];
+  arr[y]=temp;
+  }
+
+}
+class BubbleSort
+{
+  public static void mian(String[] args)
+  {
+    int[] arr=new int[]{1,2,55,96,32,4,7};
+  }
+}
